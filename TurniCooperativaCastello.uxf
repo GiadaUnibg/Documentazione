@@ -4,7 +4,7 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>300</x>
+      <x>250</x>
       <y>120</y>
       <w>560</w>
       <h>390</h>
@@ -16,7 +16,7 @@ TurniCooperativaCastello</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>510</x>
+      <x>460</x>
       <y>270</y>
       <w>160</w>
       <h>110</h>
@@ -27,20 +27,8 @@ TurniCooperativaCastello</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>380</x>
-      <y>290</y>
-      <w>150</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;(
-</panel_attributes>
-    <additional_attributes>30;30;130;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>280</x>
-      <y>290</y>
+      <x>230</x>
+      <y>270</y>
       <w>150</w>
       <h>50</h>
     </coordinates>
@@ -48,22 +36,9 @@ TurniCooperativaCastello</panel_attributes>
     <additional_attributes>30;30;130;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>150</x>
-      <y>260</y>
-      <w>160</w>
-      <h>94</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;(
-GoogleCalendar
-GMail</panel_attributes>
-    <additional_attributes>30;50;140;50</additional_attributes>
-  </element>
-  <element>
     <type>com.umlet.element.Interface</type>
     <coordinates>
-      <x>1190</x>
+      <x>1140</x>
       <y>0</y>
       <w>80</w>
       <h>90</h>
@@ -77,12 +52,39 @@ Operation2</panel_attributes>
   <element>
     <type>com.umlet.element.custom.ThreeWayRelation</type>
     <coordinates>
-      <x>280</x>
-      <y>300</y>
+      <x>230</x>
+      <y>280</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>300</x>
+      <y>250</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;(
+r1=GoogleCalendar
+Gmail</panel_attributes>
+    <additional_attributes>30;50;160;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>120</x>
+      <y>250</y>
+      <w>152</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;(
+r1=GoogleCalendar
+Gmail
+</panel_attributes>
+    <additional_attributes>30;50;120;50</additional_attributes>
   </element>
 </diagram>
