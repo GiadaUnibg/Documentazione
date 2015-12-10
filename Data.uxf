@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>350</x>
+      <y>130</y>
+      <w>510</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;component&gt;&gt;
+TurniCooperativaCastello::GestioneTurni::Data
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>550</x>
+      <y>280</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes> 
+SalvataggioDati</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.ThreeWayRelation</type>
+    <coordinates>
+      <x>320</x>
+      <y>310</y>
+      <w>60</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>210</x>
+      <y>280</y>
+      <w>130</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;()
+Gestione
+Query</panel_attributes>
+    <additional_attributes>30;50;110;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>440</x>
+      <y>280</y>
+      <w>130</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;()
+Gestione
+Query
+</panel_attributes>
+    <additional_attributes>30;50;110;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>350</x>
+      <y>300</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>100;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>360</x>
+      <y>430</y>
+      <w>160</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Operatori
+Coordinatori
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>480</x>
+      <y>300</y>
+      <w>80</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>60;30;30;140</additional_attributes>
+  </element>
+</diagram>
