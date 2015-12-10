@@ -4,9 +4,9 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>350</x>
-      <y>130</y>
-      <w>510</w>
+      <x>290</x>
+      <y>10</y>
+      <w>460</w>
       <h>440</h>
     </coordinates>
     <panel_attributes>&lt;&lt;component&gt;&gt;
@@ -17,8 +17,8 @@ TurniCooperativaCastello::GestioneTurni::Data
   <element>
     <type>com.umlet.element.custom.Component</type>
     <coordinates>
-      <x>550</x>
-      <y>280</y>
+      <x>490</x>
+      <y>160</y>
       <w>160</w>
       <h>100</h>
     </coordinates>
@@ -29,8 +29,8 @@ SalvataggioDati</panel_attributes>
   <element>
     <type>com.umlet.element.custom.ThreeWayRelation</type>
     <coordinates>
-      <x>320</x>
-      <y>310</y>
+      <x>260</x>
+      <y>190</y>
       <w>60</w>
       <h>40</h>
     </coordinates>
@@ -40,8 +40,8 @@ SalvataggioDati</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>280</y>
+      <x>150</x>
+      <y>160</y>
       <w>130</w>
       <h>94</h>
     </coordinates>
@@ -53,8 +53,8 @@ Query</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
-      <y>280</y>
+      <x>380</x>
+      <y>160</y>
       <w>130</w>
       <h>94</h>
     </coordinates>
@@ -67,8 +67,8 @@ Query
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>350</x>
-      <y>300</y>
+      <x>290</x>
+      <y>180</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -78,25 +78,98 @@ Query
   <element>
     <type>com.umlet.element.Note</type>
     <coordinates>
-      <x>360</x>
-      <y>430</y>
+      <x>300</x>
+      <y>310</y>
       <w>160</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>Operatori
 Coordinatori
+Risorse
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>480</x>
-      <y>300</y>
+      <x>420</x>
+      <y>180</y>
       <w>80</w>
       <h>160</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>60;30;30;140</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>220</x>
+      <y>510</y>
+      <w>660</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>TurniCooperaivaCastello::GestioneTurni::Data::SalvataggioDati</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>260</x>
+      <y>560</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Operatori
+--
+-Utente: Testo
+-Password: Testo
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>650</x>
+      <y>570</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Coordinatori
+--
+-Utente: Testo
+-Password: Testo
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>450</x>
+      <y>660</y>
+      <w>140</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Risorse
+--
+-Id: Testo
+-Nome: Testo
+-Cognome: Testo
+-Tempo: Testo
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>290</x>
+      <y>600</y>
+      <w>180</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=0..*
+corrispomde a</panel_attributes>
+    <additional_attributes>160;120;30;30</additional_attributes>
   </element>
 </diagram>
