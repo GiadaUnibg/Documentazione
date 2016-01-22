@@ -7,7 +7,7 @@
       <x>270</x>
       <y>0</y>
       <w>540</w>
-      <h>630</h>
+      <h>590</h>
     </coordinates>
     <panel_attributes>&lt;&lt;component&gt;&gt;
 TurniCooperativaCastello::GestioneTurni::Application
@@ -233,13 +233,15 @@ GestioneQuery</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>540</x>
+      <x>520</x>
       <y>390</y>
-      <w>50</w>
+      <w>90</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>lt=())</panel_attributes>
-    <additional_attributes>30;30;30;90</additional_attributes>
+    <panel_attributes>lt=())
+Turni
+</panel_attributes>
+    <additional_attributes>50;30;50;90</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
@@ -262,7 +264,7 @@ Utente</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>30;30;130;30</additional_attributes>
+    <additional_attributes>130;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.ThreeWayRelation</type>
@@ -307,7 +309,7 @@ Utente</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>30;30;130;30</additional_attributes>
+    <additional_attributes>130;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
